@@ -64,12 +64,11 @@ body:
     id: logfile
     attributes:
       label: Log File
-      description: |
+      description: >
         Attach the XdTd log file to help us diagnose the issue.
         The log file is located at:
-        - **Windows:** C:\Users\<your-username>\XdTd\_working\_execution.log
-        - **Linux:** ~/XdTd/_working/_execution.log
-
+        Windows: C:\Users\your-username\XdTd\_working\_execution.log  |
+        Linux: ~/XdTd/_working/_execution.log  |
         Drag and drop the file here, or paste the relevant log entries.
       render: text
     validations:
